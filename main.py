@@ -1,6 +1,6 @@
 import os; os.system("cls" if os.name == "nt" else "clear")
 
-VERSION = 1.2
+VERSION = "1.2"
 
 try:
     print(f"\x1b[38;5;1m[+] Import required modules... (if you stuck on this screen reopen program!)")
