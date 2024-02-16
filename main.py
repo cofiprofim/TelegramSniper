@@ -136,7 +136,7 @@ else:
             get_error(f"Some unknown error: ({Exception}).")
 
 def check_update():
-    res = requests.get("https://raw.githubusercontent.com/J3ldo/UGC-Sniper/main/main.py").content.decode()
+    res = requests.get("https://raw.githubusercontent.com/cofiprofim/TelegramSniper/main/main.py").content.decode()
     try:
         version = res.split("VERSION = \"")[1].split("\"")[0]
     except IndexError:
